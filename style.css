@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: rgba(255,255,255,.85);
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+a, a:visited {
+    transition: opacity 250ms;
+    color: #f7941d;
+}
+
+a:hover, a:active, a:focus {
+    opacity: .75;
+}
+
+header {
+    max-width: 1000px;
+    height: 42.333709vw;
+    max-height: 423px;
+    background-image: url(./public/banner_2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: transparent
+}
+
+main {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+section {
+    margin: 3rem 0;
+    padding: 0 1.5rem;
+}
+
+.cta {
+    background-color: rgba(0, 255, 0, .6);
+    padding: 1.5rem 2rem;
+    border-radius: 2px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.cta:visited {
+    color: white;
+}
+
+strong {
+    text-decoration: underline;
+}
