@@ -30,7 +30,7 @@ header {
     max-width: 1000px;
     height: 42.333709vw;
     max-height: 423px;
-    background-image: url(./public/banner_2.webp);
+    background-image: url(banner_2.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
