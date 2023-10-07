@@ -100,14 +100,13 @@ h3 {
     overflow: hidden;
     flex: 0 0 50vw;
     opacity: .5;
+    align-items: center;
+    justify-content: center;
 }
 
 .sponsor img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     transition: scale 250ms;
 }
@@ -126,4 +125,12 @@ h3 {
 
 #sun {
     background-color: #FCB811;
+}
+
+#rambling, #newtimes {
+    padding: 0 .5rem;
+}
+
+#uglybitch {
+    padding: .5rem 0;
 }
